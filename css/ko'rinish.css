@@ -1,0 +1,341 @@
+*{
+    margin: 0; padding: 0;
+}
+/* ======Desktop=====  */
+#Desktop{
+    width: 75vw;
+    border: 1px solid black;
+    margin:  0 auto;
+    position: relative;
+    background: #F5F5F5;
+}
+/* ===== NavBar ===== */
+.NavBar{
+    width: 56vw;
+    margin: 2.5vh auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* =================== */
+.NavBar-Logo h3{
+    font-size: 1.8vmax;
+}
+
+/* =================== */
+.NavBar-Text ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.NavBar-Text ul li{
+    padding-left: 1.4vw;
+  
+}
+
+.NavBar-Text ul li a{
+    align-self: center;
+    display: block;
+    text-decoration: none;
+    font-size: 1.3vmax;
+    padding-top: 0.5vmax;
+
+} 
+/* ======== Section ========*/
+.Section{
+    display: flex;
+    flex-direction: row;
+    width:56vw ;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.Section-Text{
+    width: 28vw;
+    align-items: center;
+}
+.Section-Text h1{
+    padding-top: 4vh;
+    font-size: 3.3vmax;
+}
+.Section-Text p{
+    font-size: 1.4vmax;
+    opacity: 0.7;
+    padding-top: 1.5vh;
+    
+    
+}
+.Section-Text button{
+    margin-top: 2vmax;
+    width: 8.6vw;
+    height: 4vh;
+    border-radius:0.5vmax;
+    background-color: #8EADD5;
+    border: none;
+    color: white;
+}
+/* ===== Section-Rasm===== */
+.Section-Rasm img {
+    width: 24vw;
+  
+}
+/* ======== Trusted ======== */
+.Trusteds{
+    width: 47vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+    background-color: #aba9a9;
+    padding: 1vh;
+    margin-bottom: 6vmax;
+    border-radius: 1vmax;
+
+}
+.Trusteds ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style: none;
+     align-items: center;
+}
+/* ======== Branding ======== */
+.Branding {
+    width: 56vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6vmax;
+}
+
+/* ====== Branding-Rasm===== */
+.Branding-Rasm img{
+    width: 23.6vw;
+}
+/* ===== Branding-Text===== */
+.Branding-Text h2{
+    font-size: 2.9vmax;
+    padding-bottom: 1vmax;
+
+}
+.Branding-Text p{
+    font-size: 1.5vmax;
+    font-weight: 300;
+    padding-bottom: 1vmax;
+}
+/* =========Custome ======== */
+.Custome{
+    width: 56vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6vmax;
+}
+/* ======= Custome-Text======= */
+.Custome-Text h2{
+    font-size: 2.9vmax;
+    padding-bottom: 1vmax;
+}
+.Custome-Text p{
+    font-size: 1.5vmax;
+    font-weight: 300;
+    padding-bottom: 1vmax;
+}
+.Custome-Rasm img{
+    width: 23.6vw;
+}
+/* ========== Read========== */
+.Read{
+    width: 56vw;
+    margin: 0 auto;
+}
+.Read-Text{
+    margin-bottom: 4vmax;
+}
+.Read-Text h2 {
+    font-size: 2.2vmax;
+    text-align: center;
+
+}
+/* ========== Read-Blok ==========*/
+.Read-Blok{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ===== Andrew =====*/
+.Blok-Andrew{
+    width: 18vw;
+    border-radius: 1vmax;
+    background-color: #DEDCDB;
+    padding-bottom: 1vmax;
+}
+.Blok-Andrew img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 2vmax;
+}
+.Blok-Andrew  h3{
+    font-size: 1.4vmax;
+    text-align: center;
+    padding-top: 0.5vmax;
+
+}
+.Blok-Andrew  p{
+    text-align: center;
+    padding-top: 1vmax;
+}
+/* ===== Vera=====*/
+.Blok-Vera{
+    width: 18vw;
+    border-radius: 1vmax;
+    background-color: #DEDCDB;
+}
+.Blok-Vera img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 2vmax;
+}
+.Blok-Vera  h3{
+    font-size: 1.4vmax;
+    text-align: center;
+    padding-top: 0.5vmax;
+
+}
+.Blok-Vera  p{
+    text-align: center;
+    padding-top: 1vmax;
+}
+
+/* =====Mark ====== */
+.Blok-Mark{
+    width: 18vw;
+    border-radius: 1vmax;
+    background-color: #DEDCDB;
+
+}
+.Blok-Mark img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 2vmax;
+}
+.Blok-Mark  h3{
+    font-size: 1.4vmax;
+    text-align: center;
+    padding-top: 0.5vmax;
+
+}
+.Blok-Mark  p{
+    text-align: center;
+    padding-top: 1vmax;
+}
+
+/* ==========cool =========== */
+.cool{
+    width: 56vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 6vmax;
+    align-items: center;
+    background-color: #DEDCDB;
+}
+/* =====cool-Rasm=====  */
+.cool-Rasm img {
+    width: 27vmax;
+
+}
+/* ===== cool-Text===== */
+.cool-Text h2 {
+font-size: 2vmax;
+padding-bottom: 1vmax;
+
+}
+.cool-Text p{
+    font-size: 1vmax;
+
+}
+.cool-Text button{
+    margin-top: 2vmax;
+    width: 8.6vw;
+    height: 4vh;
+    border-radius:0.5vmax;
+    background-color: #8EADD5;
+    border: none;
+    color: white;
+}
+
+/* ======== Havola======== */
+#Havola{
+    margin-top: 6vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #DEDCDB;
+    padding-top: 2vmax;
+    padding-bottom: 2vmax;
+}
+
+/* ======================= */
+.Havola-Digital h4 {
+    padding-bottom: 1vmax;
+    
+}
+.Havola-Digital ul {
+    list-style: none;
+}
+.Havola-Digital ul li {
+    line-height: 1.4vmax;
+}
+.Havola-Digital ul li a{
+    text-decoration: none;
+}
+
+/* ======================= */
+.Havola-Resources h4 {
+    padding-bottom: 1vmax;
+    
+}
+.Havola-Resources ul {
+    list-style: none;
+}
+.Havola-Resources ul li {
+    line-height: 1.4vmax;
+}
+.Havola-Resources ul li a{
+    text-decoration: none;
+}
+
+/* ======================= */
+.Havola-Company h4 {
+    padding-bottom: 1vmax;
+    
+}
+.Havola-Company ul {
+    list-style: none;
+}
+.Havola-Company ul li {
+    line-height: 1.4vmax;
+}
+.Havola-Company ul li a{
+    text-decoration: none;
+}
+
+/* ======================= */
+.Havola-SocialMedia h4 {
+    padding-bottom: 1vmax;
+    
+}
+.Havola-SocialMedia ul {
+    list-style: none;
+}
+.Havola-SocialMedia ul li {
+    line-height: 1.4vmax;
+}
+.Havola-SocialMedia ul li a{
+    text-decoration: none;
+}

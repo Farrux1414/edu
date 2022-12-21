@@ -1,0 +1,185 @@
+@media screen and  (min-width:0px) and (max-width:600px) {
+    #Desktop{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .NavBar{
+        width: 80vw;
+    }
+    .NavBar-Logo h3 {
+        font-size: 2.2vmax;
+
+    }
+    .NavBar-Text{
+        display: none;
+
+    }
+    /* ====================== */
+    .Section{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+       
+    }
+    .Section-Text {
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .Section-Text h1 {
+        font-size: 5.3vmax;
+        
+    }
+    .Section-Text p{
+        font-size: 2vmax;
+       
+    }
+    .Section-Text button{
+        width: 20vw;
+    }
+    .Section-Rasm img {
+        width: 80vw;
+    }
+    /* ========== Trusteds========== */
+    .Trusteds{
+        width: 80vw;
+        border-radius: 0.5vmax;
+        padding: 1vmax;
+    }
+    .Trusteds img{
+        width: 10vw;
+
+    }
+    /* =================== */
+    .Branding{
+        width: 80vw;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .Branding-Text {
+        text-align: center;
+        
+    }
+    /* ======= text h2 ======== */
+    .Branding-Text h2 {
+        font-size:5vmax ;
+    }
+    .Branding-Text P{
+        font-size: 2vmax;
+
+    }
+
+    .Branding-Rasm img{
+        width: 60vw;
+    }
+    /* ==========Custome ==========*/
+    .Custome{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+
+    }
+    .Custome-Text h2 {
+        text-align: center;
+        font-size: 5vmax;
+    }
+    .Custome-Text p{
+        font-size: 2vmax;
+        text-align: center;
+    }
+    .Custome-Rasm img{
+        width: 60vw;
+    }
+    /* ==========.Read-Text h2========*/
+    .Read{
+        width: 80vw;
+    }
+    .Read-Text h2 {
+        font-size: 4.5vmax;
+    }
+    .Read-Blok{
+        display: flex;
+        flex-direction: column;
+    }
+    /* =============== */
+    .Blok-Andrew{
+        width: 60vw;
+        margin: 0 auto;
+        margin-bottom: 2vmax;
+    }
+     /* =============== */
+     .Blok-Vera{
+        width: 60vw;
+        margin: 0 auto;
+        margin-bottom: 2vmax;
+    }
+      /* =============== */
+      .Blok-Mark{
+        width: 60vw;
+        margin: 0 auto;
+        margin-bottom: 2vmax;
+    }
+    /* ==========cool========== */
+    .cool{
+        width: 80vw;
+
+    }
+    .cool-Rasm{
+        display: none;
+    }
+    .cool-Text{
+        width: 60vw;
+        margin: 0 auto;
+    }
+    .cool-Text h2 {
+        text-align: center;
+        font-size: 3vmax;
+        padding-top: 1vmax;
+    }
+    .cool-Text button{
+        width: 20vw;
+        margin-bottom: 2vmax !important;
+        margin-top: 2vmax !important;
+        display: block;
+        margin: 0 auto;
+       
+    }
+    .cool-Text p{
+        font-size: 2vmax;
+        text-align: center;
+    }
+    #Havola{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #Havola h4 {
+        text-align: center;
+        font-size: 3vmax;
+    }
+    #Havola ul li {
+        line-height: 3.2vmax;
+    }
+    #Havola  a{
+        text-align: center;
+        display: block;
+    }
+    .Havola-Digital{
+        margin-bottom: 4vmax;
+    }
+    .Havola-Resources {
+        margin-bottom: 4vmax;
+
+    }
+    .Havola-Company{
+        margin-bottom: 4vmax;
+        
+    }
+    .Havola-SocialMedia {
+        margin-bottom: 4vmax;
+
+    }
+    
+
+
+    
+}
